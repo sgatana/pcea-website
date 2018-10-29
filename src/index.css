@@ -1,14 +1,92 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body { 
+  height: 100%;
+  /* background: linear-gradient(315deg, #000000 0%, #414141 74%), url(./images/church.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
+  color: white */
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #797979;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #103ce2;
+}
+.logo {
+  height: 60px;
+  width: 200px;
+}
+.footer{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  padding-top: 10px;
+}
+.card {
+  margin-bottom: 20px;
+  /* background-color: #f9f9f9; */
+  border: 0;
+  text-align: justify
+}
+.slider{
+  background: linear-gradient(90deg, rgba(0, 0, 0.5, 0.5));
+  background-size: cover;
+  height: 450px;
+}
+.home-slider{
+  background: linear-gradient(90deg, rgba(0, 0, 0.5, 0.5));
+  background-size: cover;
+  padding: 0;
+  height: 100%;
+}
+.caption{
+ border-bottom: #fff;
+}
+.caption-header{
+  font-size: 29px;
+  font-weight: 900;
+  font-family: 'Droid Serif', serif;
+ }
+ .slider-back{
+  background: linear-gradient(90deg, rgba(0, 0, 0.5, 0.5));
+ }
+ .zoom {
+  overflow: hidden;
+  display: inline-block;
+}
+.zoom img {
+  transition: transform 0.5s linear;
+}
+.zoom:hover img{
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.header{
+  border-bottom: #e5ae49 1px solid;
+  color: #103ce2;
+}
+.nav:hover{
+  border-bottom: #e5ae49 1px solid;
+  color: #c60c1b
+}
+.column-page{
+  border-right: #e1e1e1 1px solid;
+  border-bottom: #e1e1e1 1px solid; 
+  border-left: #e1e1e1 1px solid;
+}
+.column-page:hover{
+  border-right: #e5ae49 1px solid;
+  border-bottom: #e5ae49 1px solid; 
+  border-left: #e5ae49 1px solid;
+}
+.card-button{
+  border-radius: 2em;
+}
+.card-img-top{
+  height: 210px;
 }
