@@ -90,3 +90,34 @@ code {
 .card-img-top{
   height: 210px;
 }
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-item{
+  color: #103ce2;
+}
+.dropdown-item:hover{
+  color: #e5ae49;
+  background-color: #3C3E94;
+}
+.main-wrapper{
+  background-color: #3C3E94;
+  padding: 10px;
+  font-family: 'Times', sans-serif;
+  margin-bottom: 3em;
+  overflow: scroll;
+}
+.about{
+  color: #fff;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px;
+  border-top: 1px solid #fff;
+}
+.footer{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  padding-top: 10px;
+}
