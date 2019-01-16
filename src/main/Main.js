@@ -5,11 +5,12 @@ import Slider3 from '../images/slider3.jpg'
 import Preach from '../images/preach.jpg'
 import Church from '../images/church.jpg'
 import Slider from './slider'
+import Sermon from './sermons'
 
 export default class HomePage extends Component {
   render() {
     return (
-      <div style={{ paddingBottom: '4em;'}}>
+      <div style={{ paddingBottom: '4em;' }}>
         <div className="container-fluid home-slider">
           <Slider />
         </div>
@@ -66,41 +67,41 @@ export default class HomePage extends Component {
                 </p>
                 <div className="row">
                   <div className="col-md-4">
-                    <h5 className="fas fa-heart">Love</h5> 
-                    <hr/> 
+                    <h5 className="fas fa-heart">Love</h5>
+                    <hr />
                     <p>
                       We believe that we should love one another just like how God love us
                     </p>
                   </div>
                   <div className="col-md-4">
-                  <h5 className="fab fa-fantasy-flight-games "> Faith</h5>
-                  <hr/> 
-                  <p>
-                    We trust in God on everything. He is the giver of everything
+                    <h5 className="fab fa-fantasy-flight-games "> Faith</h5>
+                    <hr />
+                    <p>
+                      We trust in God on everything. He is the giver of everything
                   </p>
                   </div>
                   <div className="col-md-4">
-                  <h5 className="fab fa-angellist"> Hope </h5>
-                  <hr/> 
+                    <h5 className="fab fa-angellist"> Hope </h5>
+                    <hr />
                     We put our hope to Our God
-                    
+
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-4">
-                  <h5 className="fas fa-user-graduate"> Commitment </h5>
-                  <hr/> 
+                    <h5 className="fas fa-user-graduate"> Commitment </h5>
+                    <hr />
                     We are committed to spreading the gospel of christ all over the world
                   </div>
                   <div className="col-md-4">
-                  <h5 className="fas fa-award"> Honesty </h5>
-                  <hr/> 
+                    <h5 className="fas fa-award"> Honesty </h5>
+                    <hr />
                     He should be honest to ourselves and to God himself
-                    
+
                   </div>
                   <div className="col-md-4">
-                  <h5 className="fas fa-address-book"> Loyalty </h5>
-                  <hr/> 
+                    <h5 className="fas fa-address-book"> Loyalty </h5>
+                    <hr />
                     We are loyal to one another. We are our brothers' keeper
                   </div>
                 </div>
@@ -110,7 +111,9 @@ export default class HomePage extends Component {
           </div>
 
         </div>
-
+        <div className="container footer-wrapper">
+        <Sermon />
+        </div>
       </div>
     )
   }

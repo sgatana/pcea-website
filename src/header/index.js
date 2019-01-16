@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 
 export default () => <Fragment>
   <nav className="navbar navbar-expand-lg navbar-light sticky-top" style={{ backgroundColor: '#fffffa' }}>
-    <div className="container">
+    <div className="row container-fluid">
       <Link className="navbar-brand" to="/">
         <img className="logo" src={logo} alt="PCEA MUKUYU CHURCH" />
       </Link>
@@ -20,8 +20,9 @@ export default () => <Fragment>
             <Link className="nav-link" to="/">About Us</Link>
           </li>
           <li className="nav-item nav dropdown">
-          <Link className="nav-link dropdown-toggle " data-toggle="dropdown" id="navbarDropdown" aria-expanded="false" aral-haspopup="true" to="/">Groups</Link>
+            <Link className="nav-link dropdown-toggle " data-toggle="dropdown" id="navbarDropdown" aria-expanded="false" aral-haspopup="true" to="/">Groups</Link>
             <div className="dropdown-menu">
+              <Link className="dropdown-item" to="/">LCC</Link>
               <Link className="dropdown-item" to="/">PCMF</Link>
               <Link className="dropdown-item" to="/">Men's Fellowship</Link>
               <Link className="dropdown-item" to="/">Women's Guild</Link>
@@ -58,12 +59,16 @@ export default () => <Fragment>
             <Link className="nav-link" to="/">Contact Us</Link>
           </li>
         </ul>
-        <form className="form-inline my-2 my-lg-0">
+        <form className="form-inline my-2 my-lg-0 form">
           <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-          <i className="fas fa-search btn btn-outline-primary "></i>
+          <i className="fas fa-search btn btn-primary mr-3"></i>
         </form>
+        <i class="btn btn-outline-primary fab fa-facebook mr-3"></i>
+        <i class="btn btn-outline-danger fab fa-youtube mr-3"></i>
+        <i class="btn btn-outline-primary fab fa-twitter mr-3"></i>
+        <i class="btn btn-outline-danger fab fa-google-plus-square"></i>
       </div>
-      </div>
+    </div>
 
   </nav>
 </Fragment>

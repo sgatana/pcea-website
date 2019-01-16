@@ -20,7 +20,7 @@ code {
   color: #103ce2;
 }
 .logo {
-  height: 60px;
+  height: 70px;
   width: 200px;
 }
 .footer{
@@ -120,4 +120,10 @@ hr {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   padding-top: 10px;
+}
+.footer-wrapper{
+  margin-bottom: 3em;
+}
+.events{
+  color: #e5ae49;
 }

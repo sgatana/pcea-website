@@ -1,7 +1,7 @@
 import React from 'react'
 import Church from '../images/church.jpg'
 import Slider from '../images/slider.jpg'
-
+import Preach from '../images/preach.jpg'
 
 export default () => <div className="slider">
   <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
@@ -14,9 +14,9 @@ export default () => <div className="slider">
         </div>
       </div>
       <div className="carousel-item slider">
-        <img className="d-block w-100" src={Church} alt="Second slide" />
+        <img className="d-block w-100" src={Preach} alt="Second slide" />
         <div className="carousel-caption d-none d-md-block slider-back">
-          <h4>PCEA CHurch</h4>
+          <h4>PCEA Church</h4>
           <p>Welcome to PCEA Mugutha Church</p>
         </div>
       </div>
