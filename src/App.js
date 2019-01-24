@@ -2,7 +2,8 @@ import React, { Component, Fragment } from 'react';
 import Header from './header'
 import Footer from './footer'
 import HomePaage from './main/Main'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { JPRC } from './main/jprc'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
   render() {
@@ -11,7 +12,10 @@ class App extends Component {
         <Router>
           <Fragment>
             <Header />
-            <Route path='/' component={HomePaage} />
+            <Switch>
+              <Route exact path='/' component={HomePaage} />
+              <Route path='/jprc' component={JPRC} />
+            </Switch>
             <Footer />
           </Fragment>
         </Router>

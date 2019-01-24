@@ -6,9 +6,9 @@ export default () => <div className="row">
   <div className="col-md-6">
     <h5 className="card-title text-center header">Latest Sermons</h5>
     <div className="card zoom">
-      <iframe width="560" height="300" src="https://www.youtube.com/embed/uOlb6RJKs7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xp4p8ukOtgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="pcea"></iframe>
       <div className="card-body column-page">
-        <p className="card-text"><i className="fas fa-user events"></i> &nbsp; By Joel Osteen</p>
+        <p className="card-text"><i className="fas fa-user events"></i> &nbsp; By Church Choir</p>
         <p>God's Grace Is Sufficient</p>
         <Link to="#" className="btn btn-outline-primary card-button">Subscribe</Link>
       </div>

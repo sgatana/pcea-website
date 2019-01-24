@@ -11,7 +11,12 @@ body {
   color: #797979;
   overflow-x: hidden;
 }
-
+p{
+  text-align: justify
+}
+.all-contents{
+padding-bottom: 4em
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -126,4 +131,11 @@ hr {
 }
 .events{
   color: #e5ae49;
+}
+.card-content{
+  height: 140px
+}
+h6{
+  font-style: oblique;
+  font-weight: 600;
 }

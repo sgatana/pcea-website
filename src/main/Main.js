@@ -10,7 +10,7 @@ import Sermon from './sermons'
 export default class HomePage extends Component {
   render() {
     return (
-      <div style={{ paddingBottom: '4em;' }}>
+      <div className="all-contents">
         <div className="container-fluid home-slider">
           <Slider />
         </div>
@@ -60,10 +60,11 @@ export default class HomePage extends Component {
                 <img src={Church} alt="" style={{ width: '700px', overflow: ' hidded', height: '450px' }} />
               </div>
               <div className="col-md-6 about">
-                <h5>About Us</h5>
-                <h6>Welcom to PCEA MUKUYU CHURCH</h6>
+                <h6>Welcome to PCEA MUKUYU CHURCH</h6>
                 <p>
-                  Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin. This is Phoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor. <Link to='#'>Read More</Link>
+                  P.C.E.A Mukuyu was inaugurated and became a fully-fledged congregation with a full Local Church Committee, delinked from P.C.E.A Ruiru Town Church in 2014.
+
+                <Link to="#" className="btn btn-outline-primary card-button" style={{color: 'white'}}>Read More</Link>
                 </p>
                 <div className="row">
                   <div className="col-md-4">
@@ -112,7 +113,7 @@ export default class HomePage extends Component {
 
         </div>
         <div className="container footer-wrapper">
-        <Sermon />
+          <Sermon />
         </div>
       </div>
     )

@@ -24,6 +24,7 @@ export default () => <Fragment>
             <div className="dropdown-menu">
               <Link className="dropdown-item" to="/">LCC</Link>
               <Link className="dropdown-item" to="/">PCMF</Link>
+              <Link className="dropdown-item" to="/jprc">JRPC</Link>
               <Link className="dropdown-item" to="/">Men's Fellowship</Link>
               <Link className="dropdown-item" to="/">Women's Guild</Link>
               <Link className="dropdown-item" to="/">Youth</Link>
@@ -54,6 +55,13 @@ export default () => <Fragment>
           </li>
           <li className="nav-item nav">
             <Link className="nav-link" to="/">Events</Link>
+          </li>
+          <li className="nav-item nav dropdown">
+            <Link className="nav-link dropdown-toggle " data-toggle="dropdown" id="navbarDropdown" aria-expanded="false" aral-haspopup="true" to="/">Groups</Link>
+            <div className="dropdown-menu">
+              <Link className="dropdown-item" to="/">Shakina School</Link>
+              <Link className="dropdown-item" to="/">Church Sacco</Link>
+            </div>
           </li>
           <li className="nav-item nav">
             <Link className="nav-link" to="/">Contact Us</Link>
